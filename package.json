@@ -1,11 +1,11 @@
 {
   "author": "Roger Yi",
-  "name": "ngstudy",
+  "name": "ngStudy",
   "version": "0.0.1",
-  "homepage": "https://github.com/rogeryee/AngularStudy",
+  "homepage": "https://github.com/rogeryee/ngStudy",
   "repository": {
     "type": "git",
-    "url": "git@github.com:rogeryee/AngularStudy.git"
+    "url": "git@github.com:rogeryee/ngStudy.git"
   },
   "dependencies": {},
   "devDependencies": {
