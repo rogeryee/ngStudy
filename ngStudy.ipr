@@ -150,7 +150,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$//ngStudy.iml" filepath="$PROJECT_DIR$//ngStudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ngStudy.iml" filepath="$PROJECT_DIR$/ngStudy.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">

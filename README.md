@@ -19,3 +19,6 @@ ngbp_README.MD介绍了关于ngbp的使用和用到的相应的工具，可以�
 
 #### serviceSample.tpl.html ####
 	介绍如何使用使用Service的例子
+
+#### expSample.tpl.html ####
+	介绍如何使用使用Angular表达式的例子
