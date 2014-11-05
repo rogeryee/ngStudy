@@ -6,7 +6,8 @@ angular.module( 'ngStudy', [
   'ngStudy.helloWorld',
   'ngStudy.formSample',
   'ngStudy.serviceSample',
-  'ngStudy.expSample'
+  'ngStudy.expSample',
+  'ngStudy.directiveSample'
 ])
 
 .config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {

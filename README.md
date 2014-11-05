@@ -10,12 +10,14 @@ ngbp_README.MD介绍了关于ngbp的使用和用到的相应的工具，可以�
 
 #### formSample.tpl.html ####
 	介绍：本例包含了若干个简单的AngularJS的应用，包括：
-	   .按钮响应
-	   .数据遍历
-	   .函数使用
-	   .表格使用
-	   .CSS应用
-	   .Filter应用
+	   .按钮响应 （Shopping Cart）
+	   .数据遍历 (Student List)
+	   .函数使用 (Funding Estimated)
+	   .表格使用 (Restaurant Table)
+	   .CSS应用 (CSS Changed)
+	   .Filter应用 (Custom Filter)
+	   .表单应用 (Complete Form)
+	   .自定义的表单验证 (Custom Validation)
 
 #### serviceSample.tpl.html ####
 	介绍如何使用使用Service的例子
