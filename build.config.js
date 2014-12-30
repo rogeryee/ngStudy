@@ -65,13 +65,16 @@ module.exports = {
       'vendor/angular/angular.js',
       'vendor/angular-bootstrap/ui-bootstrap-tpls.min.js',
       'vendor/angular-ui-router/release/angular-ui-router.js',
-      'vendor/chart-iq/stx.js',
-      'vendor/chart-iq/stxAdvanced.js',
-      'vendor/chart-iq/stxKernelOs.js',
-      'vendor/chart-iq/stxThirdParty.js',
-      'vendor/chart-iq/stxTimeZoneData.js'
+      'vendor/chart-iq/js/stx.js',
+      'vendor/chart-iq/js/stxKernelOs.js',
+      'vendor/chart-iq/js/stxThirdParty.js',
+      'vendor/chart-iq/js/stxTimeZoneData.js'
     ],
     css: [
+      'vendor/chart-iq/css/stx-demo.css',
+      'vendor/chart-iq/css/stx-chart.css',
+      'vendor/chart-iq/css/stx-advanced.css',
+      'vendor/chart-iq/css/stx-print.css'
     ],
     assets: [
     ]

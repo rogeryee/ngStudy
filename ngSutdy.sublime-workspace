@@ -3,15 +3,39 @@
 	{
 		"selected_items":
 		[
+			[
+				"build",
+				"build_vendorjs"
+			],
+			[
+				"css",
+				"css"
+			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "build/src/app/app.js",
+			"file": "build.config.js",
 			"settings":
 			{
-				"buffer_size": 682,
+				"buffer_size": 2781,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 18384,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "build/index.html",
+			"settings":
+			{
+				"buffer_size": 4053,
 				"line_ending": "Unix"
 			}
 		}
@@ -19,17 +43,27 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 67.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			]
 		],
-		"width": 0.0
+		"width": 449.0
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
+			"install",
+			"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -45,12 +79,20 @@
 	[
 		"/Users/RogerYee/MyWork/yee/ngStudy",
 		"/Users/RogerYee/MyWork/yee/ngStudy/build",
-		"/Users/RogerYee/MyWork/yee/ngStudy/build/src",
-		"/Users/RogerYee/MyWork/yee/ngStudy/build/src/app"
+		"/Users/RogerYee/MyWork/yee/ngStudy/build/vendor",
+		"/Users/RogerYee/MyWork/yee/ngStudy/build/vendor/chart-iq",
+		"/Users/RogerYee/MyWork/yee/ngStudy/vendor/chart-iq",
+		"/Users/RogerYee/MyWork/yee/ngStudy/vendor/chart-iq/css"
 	],
 	"file_history":
 	[
+		"/Users/RogerYee/MyWork/yee/ngStudy/src/app/chartiqSample/chartiqSample.js",
+		"/Users/RogerYee/MyWork/yee/ngStudy/src/app/chartiqSample/chartiqSample.tpl.html",
+		"/Users/RogerYee/MyWork/yee/ngStudy/build.config.js",
 		"/Users/RogerYee/MyWork/yee/ngStudy/build/index.html",
+		"/Users/RogerYee/MyWork/yee/ngStudy/build/assets/ngStudy-0.0.1.css",
+		"/Users/RogerYee/MyWork/yee/ngStudy/src/index.html",
+		"/Users/RogerYee/MyWork/yee/ngStudy/src/app/app.js",
 		"/Users/RogerYee/Downloads/酷爱.lrc",
 		"/Users/RogerYee/MyWork/yee/ng-boilerplate/src/index.html",
 		"/Users/RogerYee/MyWork/yee/pr_trunk/build/index.php",
@@ -69,13 +111,14 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
+			"/Users/RogerYee/MyWork/yee/ngStudy"
 		]
 	},
 	"find_state":
@@ -83,6 +126,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"build_vendorjs",
+			".stx",
+			"styles",
+			"vendor",
 			"It works",
 			"It wo r k d s",
 			"price",
@@ -104,24 +151,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "build/src/app/app.js",
-					"semi_transient": true,
+					"file": "build.config.js",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 682,
+						"buffer_size": 2781,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2203,
+								2215
 							]
 						],
 						"settings":
@@ -131,10 +178,70 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 603.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16020,
+								16020
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8176.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "build/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4053,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								251,
+								251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -146,7 +253,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
@@ -213,7 +320,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 194.0,
+	"side_bar_width": 295.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
