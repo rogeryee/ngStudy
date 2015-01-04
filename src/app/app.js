@@ -8,7 +8,8 @@ angular.module( 'ngStudy', [
   'ngStudy.serviceSample',
   'ngStudy.expSample',
   'ngStudy.directiveSample',
-  'ngStudy.chartiqSample'
+  'ngStudy.chartiqSample',
+  'ngStudy.header'
 ])
 
 .config( function myAppConfig ( $stateProvider, $urlRouterProvider ) {

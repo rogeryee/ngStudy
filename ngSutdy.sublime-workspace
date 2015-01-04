@@ -32,6 +32,14 @@
 			}
 		},
 		{
+			"file": "ngbp_README.md",
+			"settings":
+			{
+				"buffer_size": 24375,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "build/index.html",
 			"settings":
 			{
@@ -80,9 +88,7 @@
 		"/Users/RogerYee/MyWork/yee/ngStudy",
 		"/Users/RogerYee/MyWork/yee/ngStudy/build",
 		"/Users/RogerYee/MyWork/yee/ngStudy/build/vendor",
-		"/Users/RogerYee/MyWork/yee/ngStudy/build/vendor/chart-iq",
-		"/Users/RogerYee/MyWork/yee/ngStudy/vendor/chart-iq",
-		"/Users/RogerYee/MyWork/yee/ngStudy/vendor/chart-iq/css"
+		"/Users/RogerYee/MyWork/yee/ngStudy/build/vendor/chart-iq"
 	],
 	"file_history":
 	[
@@ -151,7 +157,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -181,7 +187,7 @@
 						"translation.y": 603.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -211,11 +217,41 @@
 						"translation.y": 8176.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "ngbp_README.md",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 24375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								428
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "build/index.html",
 					"semi_transient": false,
 					"settings":
@@ -241,7 +277,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
