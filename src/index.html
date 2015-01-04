@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="ngStudy" ng-controller="AppCtrl">
+  <head>
+    <title ng-bind="pageTitle"></title>
+
+    <!-- compiled CSS --><% styles.forEach( function ( file ) { %>
+    <link rel="stylesheet" type="text/css" href="<%= file %>" /><% }); %>
+
+    <!-- compiled JavaScript --><% scripts.forEach( function ( file ) { %>
+    <script type="text/javascript" src="<%= file %>"></script><% }); %>
+
+  </head>
+  <body>
+
+    <div ng-study-header></div>
+
+    <div class="container" ui-view="main"></div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-inner">
+         <p>
+            ngStudy is based on
+            <a href="http://www.angularjs.org">AngularJS</a>,
+             <a href="https://github.com/ngbp/ngbp">ngbp</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
