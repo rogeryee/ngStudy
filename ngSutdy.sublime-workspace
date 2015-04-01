@@ -24,10 +24,10 @@
 			}
 		},
 		{
-			"file": "package.json",
+			"file": "src/app/app.js",
 			"settings":
 			{
-				"buffer_size": 918,
+				"buffer_size": 729,
 				"line_ending": "Unix"
 			}
 		}
@@ -69,7 +69,11 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/RogerYee/MyWork/yee/ngStudy"
+		"/Users/RogerYee/MyWork/yee/ngStudy",
+		"/Users/RogerYee/MyWork/yee/ngStudy/build",
+		"/Users/RogerYee/MyWork/yee/ngStudy/build/vendor",
+		"/Users/RogerYee/MyWork/yee/ngStudy/src",
+		"/Users/RogerYee/MyWork/yee/ngStudy/src/app"
 	],
 	"file_history":
 	[
@@ -127,6 +131,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<%= build_dir %>",
 			"compile_js",
 			"uglify",
 			".pr-page-nav_item--selected",
@@ -155,7 +160,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -171,8 +176,8 @@
 						"selection":
 						[
 							[
-								4954,
-								4964
+								14793,
+								14727
 							]
 						],
 						"settings":
@@ -182,19 +187,19 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2580.0,
+						"translation.y": 245.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "package.json",
+					"file": "src/app/app.js",
 					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 918,
+						"buffer_size": 729,
 						"regions":
 						{
 						},
@@ -207,7 +212,7 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -215,7 +220,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
